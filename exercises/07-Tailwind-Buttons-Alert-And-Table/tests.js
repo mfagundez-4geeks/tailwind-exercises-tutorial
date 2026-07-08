@@ -90,6 +90,6 @@ describe("All the tests should pass", function () {
         expect(table[1].nodeName).toBe("TBODY");
         expect(table[1].children[0].children.length).toBe(3);
         expect(table[1].children[1].children.length).toBe(3);
-        expect(table[1].children[2].children.length).toBe(2);
+        expect(table[1].children[2].children.length).toBe(3);
     });
 });
